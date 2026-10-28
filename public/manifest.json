@@ -1,0 +1,18 @@
+{
+  "name": "Shrishti GPS Attendance - Gorakhpur Nagar Nigam",
+  "short_name": "Shrishti Attendance",
+  "description": "Gorakhpur Nagar Nigam GPS & Live Selfie Attendance System for Shrishti Waste Management Services",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#15803d",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

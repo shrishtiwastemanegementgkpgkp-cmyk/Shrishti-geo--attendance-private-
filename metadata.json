@@ -1,0 +1,11 @@
+{
+  "name": "Shrishti GPS Attendance",
+  "description": "Gorakhpur Nagar Nigam GPS & Live Selfie Attendance System for Shrishti Waste Management Services",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,980 @@
+{
+  "adminAccount": {
+    "adminId": "admin",
+    "displayName": "Nagar Nigam Admin",
+    "passwordHash": "a39913fa5f4aceda2d7ccd7d435883f0bc2e3943f8b4bd3bb83767fbee9b67adda75de3f46d52fbd91ac4702a77e1e9430d951ee32f97b81de7ec1977fe26ba0",
+    "salt": "0321a4636e70e32f99fd97297103c3f7",
+    "isRegistered": false,
+    "createdAt": "2026-10-28T20:43:11.600Z",
+    "updatedAt": "2026-10-28T20:43:28.323Z",
+    "lastLogin": "2026-10-28T20:43:34.785Z"
+  },
+  "employees": [
+    {
+      "id": "G-E735",
+      "name": "Hemant Tripathi",
+      "nameHindi": "हेमंत त्रिपाठी",
+      "ward": "वार्ड 01 - गोलघर (Golghar)",
+      "designation": "वार्ड स्वच्छता पर्यवेक्षक (Ward Supervisor)",
+      "phone": "9838012301",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E736",
+      "name": "Sanjay Rawat",
+      "nameHindi": "संजय रावत",
+      "ward": "वार्ड 01 - गोलघर (Golghar)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012302",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E737",
+      "name": "Vijay Balmiki",
+      "nameHindi": "विजय बाल्मीकि",
+      "ward": "वार्ड 01 - गोलघर (Golghar)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012303",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E738",
+      "name": "Raju Gond",
+      "nameHindi": "राजू गौड़",
+      "ward": "वार्ड 02 - सिविल लाइंस (Civil Lines)",
+      "designation": "टिपर चालक (Tipper Driver)",
+      "phone": "9838012304",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E739",
+      "name": "Pramod Paswan",
+      "nameHindi": "प्रमोद पासवान",
+      "ward": "वार्ड 02 - सिविल लाइंस (Civil Lines)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012305",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E740",
+      "name": "Imran Khan",
+      "nameHindi": "इमरान खान",
+      "ward": "वार्ड 02 - सिविल लाइंस (Civil Lines)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012306",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E741",
+      "name": "Mukesh Kumar",
+      "nameHindi": "मुकेश कुमार",
+      "ward": "वार्ड 03 - गोरखनाथ (Gorakhnath)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012307",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E742",
+      "name": "Santosh Balmiki",
+      "nameHindi": "संतोष बाल्मीकि",
+      "ward": "वार्ड 03 - गोरखनाथ (Gorakhnath)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012308",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E743",
+      "name": "Dinesh Prasad",
+      "nameHindi": "दिनेश प्रसाद",
+      "ward": "वार्ड 03 - गोरखनाथ (Gorakhnath)",
+      "designation": "टिपर चालक (Tipper Driver)",
+      "phone": "9838012309",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E744",
+      "name": "Ramesh Yadav",
+      "nameHindi": "रमेश यादव",
+      "ward": "वार्ड 04 - राप्ती नगर (Rapti Nagar)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012310",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E745",
+      "name": "Jaiprakash Paswan",
+      "nameHindi": "जयप्रकाश पासवान",
+      "ward": "वार्ड 04 - राप्ती नगर (Rapti Nagar)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012311",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E746",
+      "name": "Anil Gond",
+      "nameHindi": "अनिल गौड़",
+      "ward": "वार्ड 04 - राप्ती नगर (Rapti Nagar)",
+      "designation": "नाला गैंग सफाई मित्र (Drain Cleaner)",
+      "phone": "9838012312",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E747",
+      "name": "Sunil Balmiki",
+      "nameHindi": "सुनील बाल्मीकि",
+      "ward": "वार्ड 05 - रुस्तमपुर (Rustampur)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012313",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E748",
+      "name": "Manoj Kumar",
+      "nameHindi": "मनोज कुमार",
+      "ward": "वार्ड 05 - रुस्तमपुर (Rustampur)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012314",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E749",
+      "name": "Babulal Rawat",
+      "nameHindi": "बाबूलाल रावत",
+      "ward": "वार्ड 05 - रुस्तमपुर (Rustampur)",
+      "designation": "टिपर चालक (Tipper Driver)",
+      "phone": "9838012315",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E750",
+      "name": "Kamal Kishor",
+      "nameHindi": "कमल किशोर",
+      "ward": "वार्ड 06 - बेतियाहाता (Betiahata)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012316",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E751",
+      "name": "Rajendra Prasad",
+      "nameHindi": "राजेन्द्र प्रसाद",
+      "ward": "वार्ड 06 - बेतियाहाता (Betiahata)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012317",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E752",
+      "name": "Surendra Balmiki",
+      "nameHindi": "सुरेन्द्र बाल्मीकि",
+      "ward": "वार्ड 06 - बेतियाहाता (Betiahata)",
+      "designation": "नाला गैंग सफाई मित्र (Drain Cleaner)",
+      "phone": "9838012318",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E753",
+      "name": "Ajay Kumar",
+      "nameHindi": "अजय कुमार",
+      "ward": "वार्ड 07 - असुरन (Asuran)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012319",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E754",
+      "name": "Deepak Paswan",
+      "nameHindi": "दीपक पासवान",
+      "ward": "वार्ड 07 - असुरन (Asuran)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012320",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E755",
+      "name": "Guddu Gond",
+      "nameHindi": "गुड्डू गौड़",
+      "ward": "वार्ड 07 - असुरन (Asuran)",
+      "designation": "टिपर चालक (Tipper Driver)",
+      "phone": "9838012321",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E756",
+      "name": "Hariom Rawat",
+      "nameHindi": "हरिओम रावत",
+      "ward": "वार्ड 08 - धर्मशाला बाजार (Dharmshala Bazar)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012322",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E757",
+      "name": "Jagdish Balmiki",
+      "nameHindi": "जगदीश बाल्मीकि",
+      "ward": "वार्ड 08 - धर्मशाला बाजार (Dharmshala Bazar)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012323",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E758",
+      "name": "Kishun Kumar",
+      "nameHindi": "किशुन कुमार",
+      "ward": "वार्ड 08 - धर्मशाला बाजार (Dharmshala Bazar)",
+      "designation": "नाला गैंग सफाई मित्र (Drain Cleaner)",
+      "phone": "9838012324",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E759",
+      "name": "Lallan Yadav",
+      "nameHindi": "लल्लन यादव",
+      "ward": "वार्ड 09 - मोहद्दीपुर (Mohaddipur)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012325",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E760",
+      "name": "Lakhan Rawat",
+      "nameHindi": "लखन रावत",
+      "ward": "वार्ड 09 - मोहद्दीपुर (Mohaddipur)",
+      "designation": "टिपर चालक (Tipper Driver)",
+      "phone": "9838012326",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E761",
+      "name": "Mahesh Paswan",
+      "nameHindi": "महेश पासवान",
+      "ward": "वार्ड 09 - मोहद्दीपुर (Mohaddipur)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012327",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E762",
+      "name": "Nandlal Balmiki",
+      "nameHindi": "नंदलाल बाल्मीकि",
+      "ward": "वार्ड 10 - तारामंडल (Taramandal)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012328",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E763",
+      "name": "Pappu Gond",
+      "nameHindi": "पप्पू गौड़",
+      "ward": "वार्ड 10 - तारामंडल (Taramandal)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012329",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E764",
+      "name": "Radheshyam Kumar",
+      "nameHindi": "राधेश्याम कुमार",
+      "ward": "वार्ड 10 - तारामंडल (Taramandal)",
+      "designation": "नाला गैंग सफाई मित्र (Drain Cleaner)",
+      "phone": "9838012330",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E765",
+      "name": "Shyamu Rawat",
+      "nameHindi": "श्यामु रावत",
+      "ward": "वार्ड 11 - बशारतपुर (Basharatpur)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012331",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E766",
+      "name": "Tribhuvan Balmiki",
+      "nameHindi": "त्रिभुवन बाल्मीकि",
+      "ward": "वार्ड 11 - बशारतपुर (Basharatpur)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012332",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E767",
+      "name": "Umesh Paswan",
+      "nameHindi": "उमेश पासवान",
+      "ward": "वार्ड 11 - बशारतपुर (Basharatpur)",
+      "designation": "टिपर चालक (Tipper Driver)",
+      "phone": "9838012333",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E768",
+      "name": "Virendra Yadav",
+      "nameHindi": "वीरेन्द्र यादव",
+      "ward": "वार्ड 12 - अलीनगर (Alinagar)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012334",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E769",
+      "name": "Waseem Ahmad",
+      "nameHindi": "वसीम अहमद",
+      "ward": "वार्ड 12 - अलीनगर (Alinagar)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012335",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E770",
+      "name": "Munna Balmiki",
+      "nameHindi": "मुन्ना बाल्मीकि",
+      "ward": "वार्ड 12 - अलीनगर (Alinagar)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012336",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E771",
+      "name": "Anand Kumar",
+      "nameHindi": "आनंद कुमार",
+      "ward": "वार्ड 13 - शाहपुर (Shahpur)",
+      "designation": "टिपर चालक (Tipper Driver)",
+      "phone": "9838012337",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E772",
+      "name": "Bhola Rawat",
+      "nameHindi": "भोला रावत",
+      "ward": "वार्ड 13 - शाहपुर (Shahpur)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012338",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E773",
+      "name": "Chhotu Balmiki",
+      "nameHindi": "छोटू बाल्मीकि",
+      "ward": "वार्ड 13 - शाहपुर (Shahpur)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012339",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E774",
+      "name": "Dharmendra Paswan",
+      "nameHindi": "धर्मेन्द्र पासवान",
+      "ward": "वार्ड 14 - दाउदपुर (Daudpur)",
+      "designation": "नाला गैंग सफाई मित्र (Drain Cleaner)",
+      "phone": "9838012340",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E775",
+      "name": "Gautam Gond",
+      "nameHindi": "गौतम गौड़",
+      "ward": "वार्ड 14 - दाउदपुर (Daudpur)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012341",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E776",
+      "name": "Harendra Kumar",
+      "nameHindi": "हरेन्द्र कुमार",
+      "ward": "वार्ड 14 - दाउदपुर (Daudpur)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012342",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E777",
+      "name": "Indrajeet Balmiki",
+      "nameHindi": "इन्द्रजीत बाल्मीकि",
+      "ward": "वार्ड 01 - गोलघर (Golghar)",
+      "designation": "टिपर चालक (Tipper Driver)",
+      "phone": "9838012343",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E778",
+      "name": "Jitendra Rawat",
+      "nameHindi": "जितेन्द्र रावत",
+      "ward": "वार्ड 02 - सिविल लाइंस (Civil Lines)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012344",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E779",
+      "name": "Kishan Paswan",
+      "nameHindi": "किशन पासवान",
+      "ward": "वार्ड 03 - गोरखनाथ (Gorakhnath)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012345",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E780",
+      "name": "Narsingh Gond",
+      "nameHindi": "नरसिंह गौड़",
+      "ward": "वार्ड 05 - रुस्तमपुर (Rustampur)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012346",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E781",
+      "name": "Madan Balmiki",
+      "nameHindi": "मदन बाल्मीकि",
+      "ward": "वार्ड 06 - बेतियाहाता (Betiahata)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012347",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E782",
+      "name": "Naresh Kumar",
+      "nameHindi": "नरेश कुमार",
+      "ward": "वार्ड 07 - असुरन (Asuran)",
+      "designation": "नाला गैंग सफाई मित्र (Drain Cleaner)",
+      "phone": "9838012348",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E783",
+      "name": "Pradeep Yadav",
+      "nameHindi": "प्रदीप यादव",
+      "ward": "वार्ड 08 - धर्मशाला बाजार (Dharmshala Bazar)",
+      "designation": "टिपर चालक (Tipper Driver)",
+      "phone": "9838012349",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E784",
+      "name": "Ramlal Rawat",
+      "nameHindi": "रामलाल रावत",
+      "ward": "वार्ड 09 - मोहद्दीपुर (Mohaddipur)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012350",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E785",
+      "name": "Sitaram Balmiki",
+      "nameHindi": "सीताराम बाल्मीकि",
+      "ward": "वार्ड 10 - तारामंडल (Taramandal)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012351",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E786",
+      "name": "Tejbahadur Paswan",
+      "nameHindi": "तेजबहादुर पासवान",
+      "ward": "वार्ड 11 - बशारतपुर (Basharatpur)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012352",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E787",
+      "name": "Upendra Gond",
+      "nameHindi": "उपेन्द्र गौड़",
+      "ward": "वार्ड 12 - अलीनगर (Alinagar)",
+      "designation": "टिपर चालक (Tipper Driver)",
+      "phone": "9838012353",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E788",
+      "name": "Vinod Balmiki",
+      "nameHindi": "विनोद बाल्मीकि",
+      "ward": "वार्ड 13 - शाहपुर (Shahpur)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012354",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E789",
+      "name": "Yogesh Kumar",
+      "nameHindi": "योगेश कुमार",
+      "ward": "वार्ड 14 - दाउदपुर (Daudpur)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012355",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E790",
+      "name": "Omkar Yadav",
+      "nameHindi": "ओमकार यादव",
+      "ward": "वार्ड 10 - तारामंडल (Taramandal)",
+      "designation": "नाला गैंग सफाई मित्र (Drain Cleaner)",
+      "phone": "9838012356",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E791",
+      "name": "Arvind Rawat",
+      "nameHindi": "अरविंद रावत",
+      "ward": "वार्ड 01 - गोलघर (Golghar)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012357",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E792",
+      "name": "Birendra Balmiki",
+      "nameHindi": "वीरेन्द्र बाल्मीकि",
+      "ward": "वार्ड 02 - सिविल लाइंस (Civil Lines)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012358",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E793",
+      "name": "Chandra Prakash",
+      "nameHindi": "चंद्र प्रकाश",
+      "ward": "वार्ड 03 - गोरखनाथ (Gorakhnath)",
+      "designation": "टिपर चालक (Tipper Driver)",
+      "phone": "9838012359",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E794",
+      "name": "Devendra Paswan",
+      "nameHindi": "देवेन्द्र पासवान",
+      "ward": "वार्ड 04 - राप्ती नगर (Rapti Nagar)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012360",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E795",
+      "name": "Govind Gond",
+      "nameHindi": "गोविंद गौड़",
+      "ward": "वार्ड 05 - रुस्तमपुर (Rustampur)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012361",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E796",
+      "name": "Hori Lal Balmiki",
+      "nameHindi": "होरी लाल बाल्मीकि",
+      "ward": "वार्ड 06 - बेतियाहाता (Betiahata)",
+      "designation": "नाला गैंग सफाई मित्र (Drain Cleaner)",
+      "phone": "9838012362",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E797",
+      "name": "Ishwar Dayal",
+      "nameHindi": "ईश्वर दयाल",
+      "ward": "वार्ड 07 - असुरन (Asuran)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012363",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E798",
+      "name": "Jagdish Yadav",
+      "nameHindi": "जगदीश यादव",
+      "ward": "वार्ड 08 - धर्मशाला बाजार (Dharmshala Bazar)",
+      "designation": "टिपर चालक (Tipper Driver)",
+      "phone": "9838012364",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E799",
+      "name": "Kamlesh Rawat",
+      "nameHindi": "कमलेश रावत",
+      "ward": "वार्ड 09 - मोहद्दीपुर (Mohaddipur)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838012365",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-E800",
+      "name": "Balak Ram Balmiki",
+      "nameHindi": "बालक राम बाल्मीकि",
+      "ward": "वार्ड 06 - बेतियाहाता (Betiahata)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838012366",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-730",
+      "name": "Subhash Balmiki",
+      "nameHindi": "सुभाष बाल्मीकि",
+      "ward": "वार्ड 01 - गोलघर (Golghar)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838099730",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-731",
+      "name": "Pawan Kumar",
+      "nameHindi": "पवन कुमार",
+      "ward": "वार्ड 02 - सिविल लाइंस (Civil Lines)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838099731",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-732",
+      "name": "Radhe Mohan",
+      "nameHindi": "राधे मोहन",
+      "ward": "वार्ड 03 - गोरखनाथ (Gorakhnath)",
+      "designation": "टिपर चालक (Tipper Driver)",
+      "phone": "9838099732",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-733",
+      "name": "Shambhu Paswan",
+      "nameHindi": "शम्भू पासवान",
+      "ward": "वार्ड 04 - राप्ती नगर (Rapti Nagar)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838099733",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-734",
+      "name": "Tuntun Rawat",
+      "nameHindi": "टुनटुन रावत",
+      "ward": "वार्ड 05 - रुस्तमपुर (Rustampur)",
+      "designation": "नाला गैंग सफाई मित्र (Drain Cleaner)",
+      "phone": "9838099734",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-735",
+      "name": "Vimal Gond",
+      "nameHindi": "विमल गौड़",
+      "ward": "वार्ड 06 - बेतियाहाता (Betiahata)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838099735",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-736",
+      "name": "Akhilesh Yadav",
+      "nameHindi": "अखिलेश यादव",
+      "ward": "वार्ड 07 - असुरन (Asuran)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838099736",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-737",
+      "name": "Birju Balmiki",
+      "nameHindi": "बिरजू बाल्मीकि",
+      "ward": "वार्ड 08 - धर्मशाला बाजार (Dharmshala Bazar)",
+      "designation": "टिपर चालक (Tipper Driver)",
+      "phone": "9838099737",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-738",
+      "name": "Chhedi Lal",
+      "nameHindi": "छेदी लाल",
+      "ward": "वार्ड 09 - मोहद्दीपुर (Mohaddipur)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838099738",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-739",
+      "name": "Dinanath Rawat",
+      "nameHindi": "दीनानाथ रावत",
+      "ward": "वार्ड 10 - तारामंडल (Taramandal)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838099739",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-740",
+      "name": "Guddu Paswan",
+      "nameHindi": "गुड्डू पासवान",
+      "ward": "वार्ड 11 - बशारतपुर (Basharatpur)",
+      "designation": "नाला गैंग सफाई मित्र (Drain Cleaner)",
+      "phone": "9838099740",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-741",
+      "name": "Heera Lal Balmiki",
+      "nameHindi": "हीरा लाल बाल्मीकि",
+      "ward": "वार्ड 12 - अलीनगर (Alinagar)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838099741",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-742",
+      "name": "Indresh Kumar",
+      "nameHindi": "इन्द्रेश कुमार",
+      "ward": "वार्ड 13 - शाहपुर (Shahpur)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838099742",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-743",
+      "name": "Jhinkan Rawat",
+      "nameHindi": "झिनकन रावत",
+      "ward": "वार्ड 14 - दाउदपुर (Daudpur)",
+      "designation": "टिपर चालक (Tipper Driver)",
+      "phone": "9838099743",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-744",
+      "name": "Kailash Gond",
+      "nameHindi": "कैलाश गौड़",
+      "ward": "वार्ड 01 - गोलघर (Golghar)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838099744",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-745",
+      "name": "Lallan Balmiki",
+      "nameHindi": "लल्लन बाल्मीकि",
+      "ward": "वार्ड 02 - सिविल लाइंस (Civil Lines)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838099745",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-746",
+      "name": "Mangal Paswan",
+      "nameHindi": "मंगल पासवान",
+      "ward": "वार्ड 03 - गोरखनाथ (Gorakhnath)",
+      "designation": "नाला गैंग सफाई मित्र (Drain Cleaner)",
+      "phone": "9838099746",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-747",
+      "name": "Nankau Rawat",
+      "nameHindi": "ननकऊ रावत",
+      "ward": "वार्ड 04 - राप्ती नगर (Rapti Nagar)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838099747",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-748",
+      "name": "Paltu Yadav",
+      "nameHindi": "पलटू यादव",
+      "ward": "वार्ड 05 - रुस्तमपुर (Rustampur)",
+      "designation": "टिपर चालक (Tipper Driver)",
+      "phone": "9838099748",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-749",
+      "name": "Ramkripal Balmiki",
+      "nameHindi": "रामकृपाल बाल्मीकि",
+      "ward": "वार्ड 06 - बेतियाहाता (Betiahata)",
+      "designation": "डोर-टू-डोर सफाईकर्मी (Door-to-Door Collector)",
+      "phone": "9838099749",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    },
+    {
+      "id": "G-750",
+      "name": "Sitaram Gond",
+      "nameHindi": "सीताराम गौड़",
+      "ward": "वार्ड 07 - असुरन (Asuran)",
+      "designation": "मार्ग सफाई मित्र (Street Sweeper)",
+      "phone": "9838099750",
+      "isActive": true,
+      "addedAt": "2026-10-01T06:00:00Z"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-ge735-2026-10-28",
+      "employeeId": "G-E735",
+      "employeeName": "Hemant Tripathi (हेमंत त्रिपाठी)",
+      "ward": "वार्ड 01 - गोलघर (Golghar)",
+      "date": "2026-10-28",
+      "timestamp": "2026-10-28T06:35:14Z",
+      "formattedTime": "06:35 AM",
+      "latitude": 26.7588,
+      "longitude": 83.3697,
+      "accuracy": 6.4,
+      "selfieDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMjAwIDIwMCI+CiAgICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBmNzY2ZSIgLz4KICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlMjkzYiIgLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8L2RlZnM+CiAgICAgIDxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBmaWxsPSJ1cmwoI2JnKSIvPgogICAgICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSI3NSIgcj0iMzgiIGZpbGw9IiNmOGZhZmMiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPHBhdGggZD0iTSA0MCAxODAgQyA0MCAxMzUsIDcwIDEyMCwgMTAwIDEyMCBDIDEzMCAxMjAsIDE2MCAxMzUsIDE2MCAxODAgWiIgZmlsbD0iI2Y4ZmFmYyIgb3BhY2l0eT0iMC45NSIvPgogICAgICA8Y2lyY2xlIGN4PSI4OCIgY3k9IjcwIiByPSI1IiBmaWxsPSIjMzM0MTU1Ii8+CiAgICAgIDxjaXJjbGUgY3g9IjExMiIgY3k9IjcwIiByPSI1IiBmaWxsPSIjMzM0MTU1Ii8+CiAgICAgIDxwYXRoIGQ9Ik0gOTAgODggUSAxMDAgOTYgMTEwIDg4IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMyIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgICAgIDxyZWN0IHg9IjIwIiB5PSIxNSIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIyNCIgcng9IjEyIiBmaWxsPSIjMDU5NjY5IiBvcGFjaXR5PSIwLjkiLz4KICAgICAgPHRleHQgeD0iMTAwIiB5PSIzMiIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5MSVZFIFZFUklGSUVEPC90ZXh0PgogICAgICA8dGV4dCB4PSIxMDAiIHk9IjE2NSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjMTU4MDNkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5IVDwvdGV4dD4KICAgIDwvc3ZnPg==",
+      "status": "Present",
+      "isFlagged": false
+    },
+    {
+      "id": "att-ge736-2026-10-28",
+      "employeeId": "G-E736",
+      "employeeName": "Sanjay Rawat (संजय रावत)",
+      "ward": "वार्ड 01 - गोलघर (Golghar)",
+      "date": "2026-10-28",
+      "timestamp": "2026-10-28T06:42:20Z",
+      "formattedTime": "06:42 AM",
+      "latitude": 26.7602,
+      "longitude": 83.3712,
+      "accuracy": 8.1,
+      "selfieDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMjAwIDIwMCI+CiAgICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAzNjlhMSIgLz4KICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlMjkzYiIgLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8L2RlZnM+CiAgICAgIDxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBmaWxsPSJ1cmwoI2JnKSIvPgogICAgICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSI3NSIgcj0iMzgiIGZpbGw9IiNmOGZhZmMiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPHBhdGggZD0iTSA0MCAxODAgQyA0MCAxMzUsIDcwIDEyMCwgMTAwIDEyMCBDIDEzMCAxMjAsIDE2MCAxMzUsIDE2MCAxODAgWiIgZmlsbD0iI2Y4ZmFmYyIgb3BhY2l0eT0iMC45NSIvPgogICAgICA8Y2lyY2xlIGN4PSI4OCIgY3k9IjcwIiByPSI1IiBmaWxsPSIjMzM0MTU1Ii8+CiAgICAgIDxjaXJjbGUgY3g9IjExMiIgY3k9IjcwIiByPSI1IiBmaWxsPSIjMzM0MTU1Ii8+CiAgICAgIDxwYXRoIGQ9Ik0gOTAgODggUSAxMDAgOTYgMTEwIDg4IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMyIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgICAgIDxyZWN0IHg9IjIwIiB5PSIxNSIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIyNCIgcng9IjEyIiBmaWxsPSIjMDU5NjY5IiBvcGFjaXR5PSIwLjkiLz4KICAgICAgPHRleHQgeD0iMTAwIiB5PSIzMiIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5MSVZFIFZFUklGSUVEPC90ZXh0PgogICAgICA8dGV4dCB4PSIxMDAiIHk9IjE2NSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjMTU4MDNkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5TUjwvdGV4dD4KICAgIDwvc3ZnPg==",
+      "status": "Present",
+      "isFlagged": false
+    },
+    {
+      "id": "att-ge738-2026-10-28",
+      "employeeId": "G-E738",
+      "employeeName": "Raju Gond (राजू गौड़)",
+      "ward": "वार्ड 02 - सिविल लाइंस (Civil Lines)",
+      "date": "2026-10-28",
+      "timestamp": "2026-10-28T06:55:08Z",
+      "formattedTime": "06:55 AM",
+      "latitude": 26.7511,
+      "longitude": 83.3824,
+      "accuracy": 12.3,
+      "selfieDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMjAwIDIwMCI+CiAgICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQzMzhjYSIgLz4KICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlMjkzYiIgLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8L2RlZnM+CiAgICAgIDxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBmaWxsPSJ1cmwoI2JnKSIvPgogICAgICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSI3NSIgcj0iMzgiIGZpbGw9IiNmOGZhZmMiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPHBhdGggZD0iTSA0MCAxODAgQyA0MCAxMzUsIDcwIDEyMCwgMTAwIDEyMCBDIDEzMCAxMjAsIDE2MCAxMzUsIDE2MCAxODAgWiIgZmlsbD0iI2Y4ZmFmYyIgb3BhY2l0eT0iMC45NSIvPgogICAgICA8Y2lyY2xlIGN4PSI4OCIgY3k9IjcwIiByPSI1IiBmaWxsPSIjMzM0MTU1Ii8+CiAgICAgIDxjaXJjbGUgY3g9IjExMiIgY3k9IjcwIiByPSI1IiBmaWxsPSIjMzM0MTU1Ii8+CiAgICAgIDxwYXRoIGQ9Ik0gOTAgODggUSAxMDAgOTYgMTEwIDg4IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMyIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgICAgIDxyZWN0IHg9IjIwIiB5PSIxNSIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIyNCIgcng9IjEyIiBmaWxsPSIjMDU5NjY5IiBvcGFjaXR5PSIwLjkiLz4KICAgICAgPHRleHQgeD0iMTAwIiB5PSIzMiIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5MSVZFIFZFUklGSUVEPC90ZXh0PgogICAgICA8dGV4dCB4PSIxMDAiIHk9IjE2NSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjMTU4MDNkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5SRzwvdGV4dD4KICAgIDwvc3ZnPg==",
+      "status": "Present",
+      "isFlagged": false
+    },
+    {
+      "id": "att-ge745-2026-10-28",
+      "employeeId": "G-E745",
+      "employeeName": "Jaiprakash Paswan (जयप्रकाश पासवान)",
+      "ward": "वार्ड 04 - राप्ती नगर (Rapti Nagar)",
+      "date": "2026-10-28",
+      "timestamp": "2026-10-28T07:10:45Z",
+      "formattedTime": "07:10 AM",
+      "latitude": 26.7821,
+      "longitude": 83.3912,
+      "accuracy": 54.2,
+      "selfieDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMjAwIDIwMCI+CiAgICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2I0NTMwOSIgLz4KICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlMjkzYiIgLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8L2RlZnM+CiAgICAgIDxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBmaWxsPSJ1cmwoI2JnKSIvPgogICAgICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSI3NSIgcj0iMzgiIGZpbGw9IiNmOGZhZmMiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPHBhdGggZD0iTSA0MCAxODAgQyA0MCAxMzUsIDcwIDEyMCwgMTAwIDEyMCBDIDEzMCAxMjAsIDE2MCAxMzUsIDE2MCAxODAgWiIgZmlsbD0iI2Y4ZmFmYyIgb3BhY2l0eT0iMC45NSIvPgogICAgICA8Y2lyY2xlIGN4PSI4OCIgY3k9IjcwIiByPSI1IiBmaWxsPSIjMzM0MTU1Ii8+CiAgICAgIDxjaXJjbGUgY3g9IjExMiIgY3k9IjcwIiByPSI1IiBmaWxsPSIjMzM0MTU1Ii8+CiAgICAgIDxwYXRoIGQ9Ik0gOTAgODggUSAxMDAgOTYgMTEwIDg4IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMyIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgICAgIDxyZWN0IHg9IjIwIiB5PSIxNSIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIyNCIgcng9IjEyIiBmaWxsPSIjMDU5NjY5IiBvcGFjaXR5PSIwLjkiLz4KICAgICAgPHRleHQgeD0iMTAwIiB5PSIzMiIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5MSVZFIFZFUklGSUVEPC90ZXh0PgogICAgICA8dGV4dCB4PSIxMDAiIHk9IjE2NSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjMTU4MDNkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5KUDwvdGV4dD4KICAgIDwvc3ZnPg==",
+      "status": "Present",
+      "isFlagged": true,
+      "flagReason": "कमज़ोर जीपीएस सिग्नल (Accuracy > 50m: 54.2m)"
+    },
+    {
+      "id": "att-ge750-2026-10-28",
+      "employeeId": "G-E750",
+      "employeeName": "Kamal Kishor (कमल किशोर)",
+      "ward": "वार्ड 06 - बेतियाहाता (Betiahata)",
+      "date": "2026-10-28",
+      "timestamp": "2026-10-28T07:22:19Z",
+      "formattedTime": "07:22 AM",
+      "latitude": 26.7445,
+      "longitude": 83.3615,
+      "accuracy": 9.8,
+      "selfieDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMjAwIDIwMCI+CiAgICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE1ODAzZCIgLz4KICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlMjkzYiIgLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8L2RlZnM+CiAgICAgIDxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBmaWxsPSJ1cmwoI2JnKSIvPgogICAgICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSI3NSIgcj0iMzgiIGZpbGw9IiNmOGZhZmMiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPHBhdGggZD0iTSA0MCAxODAgQyA0MCAxMzUsIDcwIDEyMCwgMTAwIDEyMCBDIDEzMCAxMjAsIDE2MCAxMzUsIDE2MCAxODAgWiIgZmlsbD0iI2Y4ZmFmYyIgb3BhY2l0eT0iMC45NSIvPgogICAgICA8Y2lyY2xlIGN4PSI4OCIgY3k9IjcwIiByPSI1IiBmaWxsPSIjMzM0MTU1Ii8+CiAgICAgIDxjaXJjbGUgY3g9IjExMiIgY3k9IjcwIiByPSI1IiBmaWxsPSIjMzM0MTU1Ii8+CiAgICAgIDxwYXRoIGQ9Ik0gOTAgODggUSAxMDAgOTYgMTEwIDg4IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMyIgZmlsbD0ibm9uZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgICAgIDxyZWN0IHg9IjIwIiB5PSIxNSIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIyNCIgcng9IjEyIiBmaWxsPSIjMDU5NjY5IiBvcGFjaXR5PSIwLjkiLz4KICAgICAgPHRleHQgeD0iMTAwIiB5PSIzMiIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5MSVZFIFZFUklGSUVEPC90ZXh0PgogICAgICA8dGV4dCB4PSIxMDAiIHk9IjE2NSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjMTU4MDNkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5LSzwvdGV4dD4KICAgIDwvc3ZnPg==",
+      "status": "Present",
+      "isFlagged": false
+    }
+  ],
+  "holidays": [
+    {
+      "id": "hol-1",
+      "date": "2026-10-02",
+      "name": "Gandhi Jayanti"
+    },
+    {
+      "id": "hol-2",
+      "date": "2026-10-24",
+      "name": "Diwali"
+    },
+    {
+      "id": "hol-3",
+      "date": "2026-11-05",
+      "name": "Govardhan Puja"
+    }
+  ],
+  "leaves": []
+}

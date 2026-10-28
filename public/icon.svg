@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15803d" />
+      <stop offset="50%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#grad)" />
+  <!-- Map Pin Ring -->
+  <circle cx="256" cy="210" r="110" fill="none" stroke="#ffffff" stroke-width="18" opacity="0.9" />
+  <!-- Center Leaf & Check -->
+  <path d="M256 120 C310 120 340 160 340 210 C340 270 256 370 256 370 C256 370 172 270 172 210 C172 160 202 120 256 120 Z" fill="#ffffff" />
+  <circle cx="256" cy="205" r="42" fill="#15803d" />
+  <path d="M242 206 L252 216 L272 194" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Text base badge -->
+  <rect x="80" y="400" width="352" height="58" rx="29" fill="#ffffff" />
+  <text x="256" y="440" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="900" fill="#15803d" text-anchor="middle" letter-spacing="1.5">SHRISHTI SWM</text>
+</svg>
